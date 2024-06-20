@@ -1,0 +1,56 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border: 7px solid grey;
+    background-color: rgb(245, 242, 242);
+    height: 630px;
+    width: 400px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+
+}
+.cursor {
+  
+    animation: blink 1s infinite;
+  }
+
+  @keyframes blink {
+    0% {
+      opacity: 2;
+    }
+    10% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+
+input {
+    height: 90px;
+    width: 327px;
+    border: 3px solid rgb(158, 140, 140);
+    margin: 15px 20px 15px 20px;
+    border-radius: 10px;
+    font-size: 30px;
+    text-align: right;
+    padding-right: 25px;
+}
+button {
+    height: 80px;
+    width: 80px;
+    margin-left: 7.5px;
+    margin-right: 7px;
+    font-size: 30px;
+    margin-bottom: 2px;
+    border-radius: 15px;
+
+}

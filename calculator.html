@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="container">
+        <div id="outPutBox">
+           <input id="result" type="text">
+
+        </div>
+        <button>AC</button>
+        <button id="ON">ON</button>
+        <button onclick="resultValue = resultValue + '()'; document.querySelector('#result').value = resultValue">()</button>
+        <button onclick="resultValue = resultValue + '%'; document.querySelector('#result').value = resultValue">%</button><br>
+        <button onclick="resultValue = resultValue + '2.14'; document.querySelector('#result').value = resultValue">π</button>
+        <button onclick="resultValue = resultValue + 'sin'; document.querySelector('#result').value = resultValue">sin</button>
+        <button onclick="resultValue = resultValue + 'cos'; document.querySelector('#result').value = resultValue">cos</button>
+        <button onclick="resultValue = resultValue + '/'; document.querySelector('#result').value = resultValue">/</button>
+        <button onclick="resultValue = resultValue + '7'; document.querySelector('#result').value = resultValue">7</button>
+        <button onclick="resultValue = resultValue + '8'; document.querySelector('#result').value = resultValue">8</button>
+        <button onclick="resultValue = resultValue + '9'; document.querySelector('#result').value = resultValue">9</button>
+        <button onclick="resultValue = resultValue + '*'; document.querySelector('#result').value = resultValue">*</button>
+        <button onclick="resultValue = resultValue + '4'; document.querySelector('#result').value = resultValue">4</button>
+        <button onclick="resultValue = resultValue + '5'; document.querySelector('#result').value = resultValue">5</button>
+        <button onclick="resultValue = resultValue + '6'; document.querySelector('#result').value = resultValue">6</button>
+        <button onclick="resultValue = resultValue + '-'; document.querySelector('#result').value = resultValue">-</button>
+        <button onclick="resultValue = resultValue + '1'; document.querySelector('#result').value = resultValue">1 </button>
+        <button onclick="resultValue = resultValue + '2'; document.querySelector('#result').value = resultValue">2</button>
+        <button onclick="resultValue = resultValue + '3'; document.querySelector('#result').value = resultValue">3</button>
+        <button onclick="resultValue = resultValue + '+'; document.querySelector('#result').value = resultValue">+</button>        
+        <button onclick="resultValue = resultValue + '0'; document.querySelector('#result').value = resultValue">0</button>        
+        <button onclick="resultValue = resultValue + '.'; document.querySelector('#result').value = resultValue">.</button>        
+        <button>Ans</button>        
+        <button>=</button>        
+
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>
